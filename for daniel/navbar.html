@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<script src="js/custom_jqeury.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<title>Mansura</title>
+	</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav_test">
+      <a id="navbar_name" class="navbar-brand mx-3" href="./">Mansura</a>
+       
+
+      <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
+      <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+              <a class="nav-link" id="user_balance">USER BALANCE: </a>
+          </li>
+
+          <li>
+            <div class="dropdown" id="nav_dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    VOTES:
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <span>
+                    <a class="nav-link" id="daily_votes_left">DAILY VOTES:</a>
+                  </span>
+                  <span>
+                      <a class="nav-link" id="monthly_votes_left">MONTHLY VOTES:</a>
+                  </span>
+                  <span>
+                      <a class="nav-link" id="yearly_votes_left">YEARLY VOTES:</a>
+                  </span> 
+                </div>
+            </div>
+          </li>
+
+          <li>
+              <div class="dropdown" id="nav_dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      USER:
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a id="username_location" class="nav-link" href="./user_profile">Profile</a>
+                      <a class="nav-link" href="./register">Register</a>
+                      <a class="nav-link" href="./login">Login</a>
+                      <a class="nav-link" href="./logout">Logout</a>
+                      <a class="nav-link" href="./upload">Upload</a>
+                      <a class="nav-link" href="./subscribe">Subscribe</a>
+                  </div>
+              </div>
+          </li>
+
+          <li>
+              <div class="dropdown" id="nav_dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      METRICS
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="nav-link" href="./leaderboards" disabled>Leaderboards</a>
+                      <a class="nav-link" href="./history">History</a>
+                  </div>
+              </div>
+          </li>
+
+          <li>
+              <div class="dropdown" id="nav_dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      OPTIONS:
+                  </button>
+                  <div id="profile_dropdown" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="nav-link" href="./add_funds"><h6>Add</h6></a>
+                      <a class="nav-link" href="./withdraw_funds"><h6>Withdraw</h6></a>
+                      <a class="nav-link" href="./settings"><h6>Settings</h6></a>
+                  </div>
+              </div>
+          </li>
+      </ul>
+  
+    </nav>
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>

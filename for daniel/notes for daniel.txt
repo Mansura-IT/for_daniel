@@ -1,0 +1,15 @@
+	<!-- NOTES FOR DANIEL 
+	1. this is the main sequence that will be repeated
+	3 different votes
+	potentially text
+	potentially an image
+	a button to reply
+	then varius details along the bottom
+
+	customize to your hearts content
+	
+	PS.
+	I've included in the folder i sent over the installs of bootstrap and jqeury so you shouldn't need to download antyhing else I don't think to use those libraries
+	
+	the href functionality is built into the site, this is just the front end implementation demo
+	-->

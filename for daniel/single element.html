@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<script src="js/custom_jqeury.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<title>Mansura</title>
+	</head>
+	<body>
+	
+
+	
+	<div class="col" style="width: 90%">
+			<div class="card mb-4 shadow-sm border-dark mb-3">
+				<div class="card-body">
+					<div> <!--CARD TITLE-->                  
+						<a href="/Valen">Valen</a>
+												
+						<!--DAILY -->
+						
+						<span id="daily_vote  "><button class="btn btn-outline-success"><a href="/vote/1/Daily">D: 0</a></button></span>
+						
+
+						<!--MONTHLY -->
+						
+						<span id="monthly_vote  "><button class="btn btn-outline-secondary disabled"><a href="/vote/1/Daily">M: 1</a></button></span>
+						
+
+						<!--YEARLY -->
+						
+						<span id="yearly_vote  "><button class="btn btn-outline-secondary disabled"><a href="/vote/1/Daily">Y: 0</a></button></span>
+						
+					</div>
+
+			   
+					<!-- POST TEXT -->
+					<div id="text_span">
+						
+							you can imagine this being a post that somebody would make on social media, but the length can actually go up to 10000 characters or so
+							<div>
+								<a href="/Valen_Valen-1-post_page">see more...</a> 
+							</div>
+									
+					</div>
+					
+					<!-- POST IMAGE (any image here will do to test, thats just the one Im using)-->
+					<img id="post_pic" src="pic.png " width="400" height="200">
+
+
+					<!--PROFILE PICTURE (any image here will do to test, thats just the one Im using) -->
+					<!--<img class="text-right position-absolute top-0 end-0" id="profile_picture" src="pic.png" width="30" height="30"> -->
+
+
+					<div><br></div>
+					<div class=" card-footer d-flex justify-content-between align-items-center">
+						<small class="text-muted">
+							<button class="btn btn-secondary" type="button" onclick="reply_modal_toggle(1)" aria-expanded="false">
+								REPLY
+							</button>
+						</small>
+						<small class="text-muted" id="post_details">
+							<a href="Valen_Valen-1-post_page">ID:1 </a>
+							<!--<u>BYTES: 100</u>-->                        
+							<u>18+</u>                        
+							Source:<a href=""></a>                       
+							Referencing: 235
+							2022-11-02 13:27:32.983779
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://unpkg.com/@popperjs/core@2"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
